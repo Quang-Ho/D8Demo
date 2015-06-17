@@ -15,7 +15,5 @@ BOOL isConnected;
     
 }
 +(UIAlertView *) showMessageBox:(NSString *) message withTitle:(NSString*) title;
-+(void) startWatchingInternetConnection;
-+(BOOL) isInternetConnected;
 @end
 
