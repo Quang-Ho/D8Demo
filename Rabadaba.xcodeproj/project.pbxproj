@@ -20,8 +20,6 @@
 		9A1B59501B3175C100D00038 /* UserInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B594E1B3175C100D00038 /* UserInfo.m */; };
 		9A1B59531B3175D000D00038 /* AppConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59521B3175D000D00038 /* AppConfig.m */; };
 		9A1B595B1B31761800D00038 /* BaseService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59561B31761800D00038 /* BaseService.m */; };
-		9A1B595C1B31761800D00038 /* ReminderService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59581B31761800D00038 /* ReminderService.m */; };
-		9A1B595D1B31761800D00038 /* VersionService.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B595A1B31761800D00038 /* VersionService.m */; };
 		9A1B597A1B31762A00D00038 /* ASIAuthenticationDialog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59611B31762A00D00038 /* ASIAuthenticationDialog.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9A1B597B1B31762A00D00038 /* ASIDataCompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59641B31762A00D00038 /* ASIDataCompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9A1B597C1B31762A00D00038 /* ASIDataDecompressor.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59661B31762A00D00038 /* ASIDataDecompressor.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -70,10 +68,6 @@
 		9A1B59521B3175D000D00038 /* AppConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppConfig.m; sourceTree = "<group>"; };
 		9A1B59551B31761800D00038 /* BaseService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseService.h; sourceTree = "<group>"; };
 		9A1B59561B31761800D00038 /* BaseService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseService.m; sourceTree = "<group>"; };
-		9A1B59571B31761800D00038 /* ReminderService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderService.h; sourceTree = "<group>"; };
-		9A1B59581B31761800D00038 /* ReminderService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderService.m; sourceTree = "<group>"; };
-		9A1B59591B31761800D00038 /* VersionService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VersionService.h; sourceTree = "<group>"; };
-		9A1B595A1B31761800D00038 /* VersionService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VersionService.m; sourceTree = "<group>"; };
 		9A1B59601B31762A00D00038 /* ASIAuthenticationDialog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASIAuthenticationDialog.h; sourceTree = "<group>"; };
 		9A1B59611B31762A00D00038 /* ASIAuthenticationDialog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASIAuthenticationDialog.m; sourceTree = "<group>"; };
 		9A1B59621B31762A00D00038 /* ASICacheDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASICacheDelegate.h; sourceTree = "<group>"; };
@@ -212,10 +206,6 @@
 			children = (
 				9A1B59551B31761800D00038 /* BaseService.h */,
 				9A1B59561B31761800D00038 /* BaseService.m */,
-				9A1B59571B31761800D00038 /* ReminderService.h */,
-				9A1B59581B31761800D00038 /* ReminderService.m */,
-				9A1B59591B31761800D00038 /* VersionService.h */,
-				9A1B595A1B31761800D00038 /* VersionService.m */,
 			);
 			name = Services;
 			path = Rabadaba/Services;
@@ -387,8 +377,6 @@
 				9A1B59231B31751000D00038 /* AppDelegate.m in Sources */,
 				9A1B597F1B31762A00D00038 /* ASIHTTPRequest.m in Sources */,
 				9A1B59261B31751000D00038 /* FirstViewController.m in Sources */,
-				9A1B595C1B31761800D00038 /* ReminderService.m in Sources */,
-				9A1B595D1B31761800D00038 /* VersionService.m in Sources */,
 				9A1B597B1B31762A00D00038 /* ASIDataCompressor.m in Sources */,
 				9A1B59831B31762A00D00038 /* MBProgressHUD.m in Sources */,
 				9A1B59201B31751000D00038 /* main.m in Sources */,
@@ -592,6 +580,7 @@
 				9A1B59421B31751000D00038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9A1B59431B31751000D00038 /* Build configuration list for PBXNativeTarget "RabadabaTests" */ = {
 			isa = XCConfigurationList;
@@ -600,6 +589,7 @@
 				9A1B59451B31751000D00038 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
