@@ -38,6 +38,11 @@
 		9A1B59991B317BDC00D00038 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A1B59841B317B4000D00038 /* Foundation.framework */; };
 		9A1B599E1B317FF800D00038 /* ContactViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B599B1B317FF800D00038 /* ContactViewController.m */; };
 		9A1B599F1B317FF800D00038 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B599D1B317FF800D00038 /* LoginViewController.m */; };
+		9A1B59A21B3183F100D00038 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59A11B3183F100D00038 /* ThirdViewController.m */; };
+		9A1B59A51B31841F00D00038 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59A41B31841F00D00038 /* FourthViewController.m */; };
+		9A1B59A81B31844D00D00038 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59A71B31844D00D00038 /* FifthViewController.m */; };
+		9A1B59AD1B31867100D00038 /* MRNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59AA1B31867100D00038 /* MRNavigationViewController.m */; };
+		9A1B59AE1B31867100D00038 /* MRTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A1B59AC1B31867100D00038 /* MRTabBarViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +114,16 @@
 		9A1B599B1B317FF800D00038 /* ContactViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactViewController.m; sourceTree = "<group>"; };
 		9A1B599C1B317FF800D00038 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
 		9A1B599D1B317FF800D00038 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9A1B59A01B3183F100D00038 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		9A1B59A11B3183F100D00038 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		9A1B59A31B31841F00D00038 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		9A1B59A41B31841F00D00038 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		9A1B59A61B31844D00D00038 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		9A1B59A71B31844D00D00038 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		9A1B59A91B31867100D00038 /* MRNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRNavigationViewController.h; sourceTree = "<group>"; };
+		9A1B59AA1B31867100D00038 /* MRNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRNavigationViewController.m; sourceTree = "<group>"; };
+		9A1B59AB1B31867100D00038 /* MRTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MRTabBarViewController.h; sourceTree = "<group>"; };
+		9A1B59AC1B31867100D00038 /* MRTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MRTabBarViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +176,10 @@
 		9A1B591C1B31750F00D00038 /* Rabadaba */ = {
 			isa = PBXGroup;
 			children = (
+				9A1B59A91B31867100D00038 /* MRNavigationViewController.h */,
+				9A1B59AA1B31867100D00038 /* MRNavigationViewController.m */,
+				9A1B59AB1B31867100D00038 /* MRTabBarViewController.h */,
+				9A1B59AC1B31867100D00038 /* MRTabBarViewController.m */,
 				9A1B599A1B317FF800D00038 /* ContactViewController.h */,
 				9A1B599B1B317FF800D00038 /* ContactViewController.m */,
 				9A1B599C1B317FF800D00038 /* LoginViewController.h */,
@@ -177,6 +196,12 @@
 				9A1B592D1B31751000D00038 /* Images.xcassets */,
 				9A1B592F1B31751000D00038 /* LaunchScreen.xib */,
 				9A1B591D1B31750F00D00038 /* Supporting Files */,
+				9A1B59A01B3183F100D00038 /* ThirdViewController.h */,
+				9A1B59A11B3183F100D00038 /* ThirdViewController.m */,
+				9A1B59A31B31841F00D00038 /* FourthViewController.h */,
+				9A1B59A41B31841F00D00038 /* FourthViewController.m */,
+				9A1B59A61B31844D00D00038 /* FifthViewController.h */,
+				9A1B59A71B31844D00D00038 /* FifthViewController.m */,
 			);
 			path = Rabadaba;
 			sourceTree = "<group>";
@@ -401,6 +426,7 @@
 			files = (
 				9A1B59291B31751000D00038 /* SecondViewController.m in Sources */,
 				9A1B597A1B31762A00D00038 /* ASIAuthenticationDialog.m in Sources */,
+				9A1B59AE1B31867100D00038 /* MRTabBarViewController.m in Sources */,
 				9A1B597D1B31762A00D00038 /* ASIDownloadCache.m in Sources */,
 				9A1B597E1B31762A00D00038 /* ASIFormDataRequest.m in Sources */,
 				9A1B599F1B317FF800D00038 /* LoginViewController.m in Sources */,
@@ -410,15 +436,19 @@
 				9A1B597F1B31762A00D00038 /* ASIHTTPRequest.m in Sources */,
 				9A1B599E1B317FF800D00038 /* ContactViewController.m in Sources */,
 				9A1B59261B31751000D00038 /* FirstViewController.m in Sources */,
+				9A1B59A81B31844D00D00038 /* FifthViewController.m in Sources */,
 				9A1B597B1B31762A00D00038 /* ASIDataCompressor.m in Sources */,
 				9A1B59831B31762A00D00038 /* MBProgressHUD.m in Sources */,
 				9A1B59201B31751000D00038 /* main.m in Sources */,
 				9A1B59821B31762A00D00038 /* Reachability.m in Sources */,
 				9A1B59531B3175D000D00038 /* AppConfig.m in Sources */,
+				9A1B59A51B31841F00D00038 /* FourthViewController.m in Sources */,
 				9A1B59801B31762A00D00038 /* ASIInputStream.m in Sources */,
 				9A1B597C1B31762A00D00038 /* ASIDataDecompressor.m in Sources */,
 				9A1B59491B3175AF00D00038 /* Utilities.m in Sources */,
+				9A1B59AD1B31867100D00038 /* MRNavigationViewController.m in Sources */,
 				9A1B59501B3175C100D00038 /* UserInfo.m in Sources */,
+				9A1B59A21B3183F100D00038 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
