@@ -10,8 +10,5 @@
 
 @interface MRTabBarViewController : UITabBarController
 
-@property (assign,nonatomic) BOOL isOpenTabPouches;
-
--(void)checkReminderInQueue;
 
 @end
